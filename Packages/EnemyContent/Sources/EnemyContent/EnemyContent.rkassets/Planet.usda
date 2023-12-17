@@ -1,0 +1,116 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "Earth" (
+        active = true
+        prepend references = @Earth.usdz@
+    )
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-1, 2, -5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "Moon" (
+        active = true
+        prepend references = @Moon.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (0.2, 0.2, 0.2)
+        float3 xformOp:translate = (-1, 2.2, -5.2)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "Sun" (
+        active = true
+        prepend references = @Sun.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (10, 10, 10)
+        float3 xformOp:translate = (-3, 2, -5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "Mercury" (
+        active = true
+        prepend references = @Mercury.usdz@
+    )
+    {
+        float3 xformOp:scale = (0.6, 0.6, 0.6)
+        float3 xformOp:translate = (-1.6, 2, -5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "Venus" (
+        active = true
+        prepend references = @Venus.usdz@
+    )
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-1.3, 2, -5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "Mars" (
+        active = true
+        prepend references = @Mars.usdz@
+    )
+    {
+        float3 xformOp:scale = (0.9, 0.9, 0.9)
+        float3 xformOp:translate = (-0.6, 2, -5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "Jupiter" (
+        active = true
+        prepend references = @Jupiter.usdz@
+    )
+    {
+        float3 xformOp:scale = (5, 5, 5)
+        float3 xformOp:translate = (0.6, 2, -5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "Saturn" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, 0, 0.34906584)
+        }
+        prepend references = @Saturn.usdz@
+    )
+    {
+        quatf xformOp:orient = (0.9848077, 0, 0, 0.17364818)
+        float3 xformOp:scale = (3, 3, 3)
+        float3 xformOp:translate = (2.2843103, 2, -5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "Uranus" (
+        active = true
+        prepend references = @Uranus.usdz@
+    )
+    {
+        float3 xformOp:scale = (3, 3, 3)
+        float3 xformOp:translate = (3.928572, 2, -5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "Neptune" (
+        active = true
+        prepend references = @Neptune.usdz@
+    )
+    {
+        float3 xformOp:scale = (4, 4, 4)
+        float3 xformOp:translate = (6.0139527, 2, -5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+}
+

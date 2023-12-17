@@ -7,25 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		712316672B2DA2D0000638C4 /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712316662B2DA2D0000638C4 /* Invader.swift */; };
+		712316692B2DA390000638C4 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712316682B2DA390000638C4 /* GameModel.swift */; };
+		7123166B2B2DA6E0000638C4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7123166A2B2DA6E0000638C4 /* Home.swift */; };
+		712316732B2DC03C000638C4 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712316722B2DC03C000638C4 /* Enemy.swift */; };
+		712316752B2DC9DF000638C4 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712316742B2DC9DF000638C4 /* Play.swift */; };
+		712316792B2DD505000638C4 /* Entiry+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712316782B2DD505000638C4 /* Entiry+Extension.swift */; };
+		7123167D2B2E2BED000638C4 /* EnemyContent in Resources */ = {isa = PBXBuildFile; fileRef = 7123167C2B2E2BED000638C4 /* EnemyContent */; };
+		712316802B2E2BF5000638C4 /* EnemyContent in Frameworks */ = {isa = PBXBuildFile; productRef = 7123167F2B2E2BF5000638C4 /* EnemyContent */; };
+		712316882B2EFD9B000638C4 /* ImageTexture.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 712316872B2EFD9B000638C4 /* ImageTexture.skybox */; };
+		7123168C2B2F1181000638C4 /* PlanetSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7123168B2B2F1181000638C4 /* PlanetSpace.swift */; };
+		7123168E2B2F1322000638C4 /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7123168D2B2F1322000638C4 /* PlanetView.swift */; };
+		712316982B2F18E9000638C4 /* Skull.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 712316972B2F18E9000638C4 /* Skull.usdz */; };
+		7123169A2B2F18F0000638C4 /* Sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 712316992B2F18F0000638C4 /* Sun.usdz */; };
 		71DD806E2B2D866C00393F16 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 71DD806D2B2D866C00393F16 /* RealityKitContent */; };
 		71DD80702B2D866C00393F16 /* invaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DD806F2B2D866C00393F16 /* invaderApp.swift */; };
 		71DD80722B2D866C00393F16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DD80712B2D866C00393F16 /* ContentView.swift */; };
-		71DD80742B2D866C00393F16 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DD80732B2D866C00393F16 /* ImmersiveView.swift */; };
-		71DD80762B2D866C00393F16 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 71DD80752B2D866C00393F16 /* ImageBasedLighting.skybox */; };
 		71DD80782B2D867000393F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DD80772B2D867000393F16 /* Assets.xcassets */; };
 		71DD807B2B2D867000393F16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DD807A2B2D867000393F16 /* Preview Assets.xcassets */; };
+		71DD80862B2D8B8700393F16 /* InvaderSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DD80852B2D8B8700393F16 /* InvaderSpace.swift */; };
+		71DD80882B2D8C0500393F16 /* GlobalEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DD80872B2D8C0500393F16 /* GlobalEntities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		712316662B2DA2D0000638C4 /* Invader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
+		712316682B2DA390000638C4 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		7123166A2B2DA6E0000638C4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		712316722B2DC03C000638C4 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		712316742B2DC9DF000638C4 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		712316782B2DD505000638C4 /* Entiry+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entiry+Extension.swift"; sourceTree = "<group>"; };
+		7123167C2B2E2BED000638C4 /* EnemyContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = EnemyContent; sourceTree = "<group>"; };
+		712316872B2EFD9B000638C4 /* ImageTexture.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageTexture.skybox; sourceTree = "<group>"; };
+		7123168B2B2F1181000638C4 /* PlanetSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetSpace.swift; sourceTree = "<group>"; };
+		7123168D2B2F1322000638C4 /* PlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetView.swift; sourceTree = "<group>"; };
+		712316972B2F18E9000638C4 /* Skull.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Skull.usdz; path = Packages/EnemyContent/Sources/EnemyContent/EnemyContent.rkassets/Skull.usdz; sourceTree = SOURCE_ROOT; };
+		712316992B2F18F0000638C4 /* Sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Sun.usdz; path = Packages/EnemyContent/Sources/EnemyContent/EnemyContent.rkassets/Sun.usdz; sourceTree = SOURCE_ROOT; };
 		71DD80682B2D866C00393F16 /* invader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = invader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DD806C2B2D866C00393F16 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		71DD806F2B2D866C00393F16 /* invaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invaderApp.swift; sourceTree = "<group>"; };
 		71DD80712B2D866C00393F16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		71DD80732B2D866C00393F16 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
-		71DD80752B2D866C00393F16 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
 		71DD80772B2D867000393F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71DD807A2B2D867000393F16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71DD807C2B2D867000393F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71DD80852B2D8B8700393F16 /* InvaderSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvaderSpace.swift; sourceTree = "<group>"; };
+		71DD80872B2D8C0500393F16 /* GlobalEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEntities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,18 +59,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				71DD806E2B2D866C00393F16 /* RealityKitContent in Frameworks */,
+				712316802B2E2BF5000638C4 /* EnemyContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		712316652B2D9B8A000638C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				712316662B2DA2D0000638C4 /* Invader.swift */,
+				7123166A2B2DA6E0000638C4 /* Home.swift */,
+				712316742B2DC9DF000638C4 /* Play.swift */,
+				7123168D2B2F1322000638C4 /* PlanetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7123167E2B2E2BF5000638C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		712316912B2F1564000638C4 /* Spaces */ = {
+			isa = PBXGroup;
+			children = (
+				7123168B2B2F1181000638C4 /* PlanetSpace.swift */,
+				71DD80852B2D8B8700393F16 /* InvaderSpace.swift */,
+			);
+			path = Spaces;
+			sourceTree = "<group>";
+		};
+		712316922B2F183D000638C4 /* USDZ */ = {
+			isa = PBXGroup;
+			children = (
+				712316972B2F18E9000638C4 /* Skull.usdz */,
+				712316992B2F18F0000638C4 /* Sun.usdz */,
+			);
+			path = USDZ;
+			sourceTree = "<group>";
+		};
 		71DD805F2B2D866C00393F16 = {
 			isa = PBXGroup;
 			children = (
+				712316872B2EFD9B000638C4 /* ImageTexture.skybox */,
 				71DD806A2B2D866C00393F16 /* invader */,
 				71DD806B2B2D866C00393F16 /* Packages */,
 				71DD80692B2D866C00393F16 /* Products */,
+				7123167E2B2E2BF5000638C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,13 +124,18 @@
 		71DD806A2B2D866C00393F16 /* invader */ = {
 			isa = PBXGroup;
 			children = (
+				712316922B2F183D000638C4 /* USDZ */,
+				712316912B2F1564000638C4 /* Spaces */,
+				712316652B2D9B8A000638C4 /* Views */,
 				71DD806F2B2D866C00393F16 /* invaderApp.swift */,
 				71DD80712B2D866C00393F16 /* ContentView.swift */,
-				71DD80732B2D866C00393F16 /* ImmersiveView.swift */,
-				71DD80752B2D866C00393F16 /* ImageBasedLighting.skybox */,
 				71DD80772B2D867000393F16 /* Assets.xcassets */,
 				71DD807C2B2D867000393F16 /* Info.plist */,
 				71DD80792B2D867000393F16 /* Preview Content */,
+				71DD80872B2D8C0500393F16 /* GlobalEntities.swift */,
+				712316682B2DA390000638C4 /* GameModel.swift */,
+				712316722B2DC03C000638C4 /* Enemy.swift */,
+				712316782B2DD505000638C4 /* Entiry+Extension.swift */,
 			);
 			path = invader;
 			sourceTree = "<group>";
@@ -74,6 +143,7 @@
 		71DD806B2B2D866C00393F16 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				7123167C2B2E2BED000638C4 /* EnemyContent */,
 				71DD806C2B2D866C00393F16 /* RealityKitContent */,
 			);
 			path = Packages;
@@ -105,6 +175,7 @@
 			name = invader;
 			packageProductDependencies = (
 				71DD806D2B2D866C00393F16 /* RealityKitContent */,
+				7123167F2B2E2BF5000638C4 /* EnemyContent */,
 			);
 			productName = invader;
 			productReference = 71DD80682B2D866C00393F16 /* invader.app */;
@@ -148,9 +219,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7123169A2B2F18F0000638C4 /* Sun.usdz in Resources */,
 				71DD80782B2D867000393F16 /* Assets.xcassets in Resources */,
 				71DD807B2B2D867000393F16 /* Preview Assets.xcassets in Resources */,
-				71DD80762B2D866C00393F16 /* ImageBasedLighting.skybox in Resources */,
+				7123167D2B2E2BED000638C4 /* EnemyContent in Resources */,
+				712316882B2EFD9B000638C4 /* ImageTexture.skybox in Resources */,
+				712316982B2F18E9000638C4 /* Skull.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +236,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				71DD80722B2D866C00393F16 /* ContentView.swift in Sources */,
+				712316692B2DA390000638C4 /* GameModel.swift in Sources */,
+				7123168E2B2F1322000638C4 /* PlanetView.swift in Sources */,
+				712316672B2DA2D0000638C4 /* Invader.swift in Sources */,
 				71DD80702B2D866C00393F16 /* invaderApp.swift in Sources */,
-				71DD80742B2D866C00393F16 /* ImmersiveView.swift in Sources */,
+				7123166B2B2DA6E0000638C4 /* Home.swift in Sources */,
+				712316732B2DC03C000638C4 /* Enemy.swift in Sources */,
+				71DD80862B2D8B8700393F16 /* InvaderSpace.swift in Sources */,
+				712316792B2DD505000638C4 /* Entiry+Extension.swift in Sources */,
+				71DD80882B2D8C0500393F16 /* GlobalEntities.swift in Sources */,
+				712316752B2DC9DF000638C4 /* Play.swift in Sources */,
+				7123168C2B2F1181000638C4 /* PlanetSpace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +448,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		7123167F2B2E2BF5000638C4 /* EnemyContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EnemyContent;
+		};
 		71DD806D2B2D866C00393F16 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;

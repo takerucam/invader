@@ -1,0 +1,14 @@
+{
+  "pathsToIds" : {
+    "EnemyContent\/Sources\/EnemyContent\/EnemyContent.rkassets\/invader.usda" : "BD62649A-C499-4354-81BC-C8EA910E7FE0",
+    "EnemyContent\/Sources\/EnemyContent\/EnemyContent.rkassets\/Invader.usda" : "38A8933D-3A89-43C8-A612-FE7E6884624A",
+    "EnemyContent\/Sources\/EnemyContent\/EnemyContent.rkassets\/maneki.usdz" : "A6D1754A-0016-4482-8EA0-61AAE9ABE241",
+    "EnemyContent\/Sources\/EnemyContent\/EnemyContent.rkassets\/Planet.usda" : "5C24B669-E16C-41CC-AEBE-F644D656084F",
+    "EnemyContent\/Sources\/EnemyContent\/EnemyContent.rkassets\/Scene.usda" : "179A51F3-3257-4F81-91DB-260C87555B15",
+    "EnemyContent\/Sources\/EnemyContent\/EnemyContent.rkassets\/Skull.usdz" : "6303A60A-C9BE-4492-AE5E-7867DF563953",
+    "EnemyContent\/Sources\/EnemyContent\/EnemyContent.rkassets\/sun.usda" : "0F8FAA69-C1DC-4FC3-A616-311E0CFECFC2",
+    "EnemyContent\/Sources\/EnemyContent\/EnemyContent.rkassets\/Untitled Scene.usda" : "B2ED387D-58DB-4596-BBF5-BDFF28171B10",
+    "EnemyContent\/Sources\/EnemyContent\/EnemyContent.rkassets\/Untitled.usda" : "FA31A6FA-02AF-4DB4-9085-74A23738897F",
+    "EnemyContent\/Sources\/EnemyContent\/EnemyContent.rkassets\/Untitled%20Scene.usda" : "E4F4B464-9778-4608-9A40-94262FA080A1"
+  }
+}

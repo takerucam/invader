@@ -6,16 +6,35 @@
 //
 
 import SwiftUI
+import RealityKit
 
 @main
 struct invaderApp: App {
-    var body: some Scene {
+    @State private var gameModel = GameModel()
+    @State private var immersionState: ImmersionStyle = .mixed
+    
+    var body: some SwiftUI.Scene {
         WindowGroup {
-            ContentView()
+            Invader()
+                .environment(gameModel)
+                .onAppear {
+                    guard let windowScreen = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
+                        return
+                    }
+                    
+                    windowScreen.requestGeometryUpdate(.Vision(resizingRestrictions: UIWindowScene.ResizingRestrictions.none))
+                }
         }
+        .windowStyle(.plain)
 
-        ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
-        }.immersionStyle(selection: .constant(.full), in: .full)
+        // FullSpaceにしたさいに呼ばれる
+        ImmersiveSpace(id: "invader") {
+            InvaderSpace()
+        }
+        
+        ImmersiveSpace(id: "planet") {
+            PlanetSpace()
+        }
+        .immersionStyle(selection: $immersionState, in: .mixed)
     }
 }
