@@ -102,7 +102,7 @@ private func spawnEnemyExact(start: Point3D, end: Point3D) async throws -> Entit
     enemy.setMaterialParameterValues(parameter: "saturation", value: .float(0.0))
     enemy.setMaterialParameterValues(parameter: "animate_texture", value: .bool(false))
     
-    guard let resource = try? await EnvironmentResource(named: "white") else {
+    guard let resource = try? await EnvironmentResource(named: "whiteLighting") else {
         spaceOrigin.addChild(enemy)
         return enemy
     }

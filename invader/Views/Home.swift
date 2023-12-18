@@ -16,7 +16,7 @@ struct Home: View {
         HStack {
             RealityView { content in
                 guard let skull = try? await ModelEntity(named: "Skull.usdz"),
-                      let resource = try? await EnvironmentResource(named: "white")
+                      let resource = try? await EnvironmentResource(named: "whiteLighting")
                 else {
                     fatalError("ERROR")
                 }
@@ -41,7 +41,7 @@ struct Home: View {
             
             RealityView { content in
                 guard let sun = try? await ModelEntity(named: "Sun.usdz"),
-                      let resource = try? await EnvironmentResource(named: "white")
+                      let resource = try? await EnvironmentResource(named: "whiteLighting")
                 else {
                     fatalError("ERROR")
                 }
